@@ -44,7 +44,9 @@ I first used Random Forest as it decreases correlation and reduce model variance
 The Gradient Boosting method builds trees sequentially using the residuals from previous trees. The model returned a MSE of 0.070, which is lower than that of the random forest model.
 
 ### Cross Validation and Hyperparameter tuning
-In order to prevent overfitting, I perform cross-validation and tuned hyperparameters over a tuning grid. Based on that, gradient boosting resulted in the lowest MSE of 0.067. 
+In order to prevent overfitting, I perform cross-validation and tuned hyperparameters over a tuning grid. Based on that, gradient boosting resulted in the lowest MSE of 0.067. The important features are shown in the graph below.
+
+![Importance](https://github.com/sharmas412/Zillow-Kaggle/blob/master/images/Importance.png)
 
 ## Further Strategies
 The next step would be to simplify the model by using only the most important features. Furthermore, we can create new features by combining the important features. 
